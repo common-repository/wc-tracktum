@@ -1,0 +1,304 @@
+.integration-wrap {
+    /*width: 100%;*/
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    background: 1px solid #f9f9f9;
+}
+
+.integration-name {
+	border-bottom: 1px solid #f9f9f9f9;
+}
+
+.gateway {
+	display: flex;
+}
+
+.integration-field {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.field-events label {
+	flex-basis: 100%;
+}
+
+
+.wctracktum-admin .nav-tab.disabled {
+  color: #b1b1b1;
+}
+/*.wctracktum-admin .wctracktum-two-column {
+  display: flex;
+}
+.wctracktum-admin .wctracktum-two-column .settings-wrap {
+  width: 70%;
+}
+.wctracktum-admin .wctracktum-two-column .sidebar-wrap {
+  width: 33%;
+}*/
+
+.wctracktum-admin .switch input {
+  display: none;
+}
+.wctracktum-admin .switch input:checked + .slider {
+  background-color: #64b450;
+}
+.wctracktum-admin .switch input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+.wctracktum-admin .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #CCC;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.wctracktum-admin .switch .slider.round {
+  border-radius: 34px;
+}
+.wctracktum-admin .switch .slider.round:before {
+  border-radius: 50%;
+}
+.wctracktum-admin .switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.wctracktum-admin input[type="checkbox"] {
+  border: 1px solid #b4b9be;
+  background: #fff;
+  color: #555;
+  clear: none;
+  cursor: pointer;
+  line-height: 0;
+  height: 16px;
+  margin: -4px 4px 0 0;
+  outline: 0;
+  padding: 0!important;
+  text-align: center;
+  vertical-align: middle;
+  width: 16px;
+  min-width: 16px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.05s border-color ease-in-out;
+}
+.wctracktum-admin .slider.round:before {
+  border-radius: 50%;
+}
+.wctracktum-admin .submit-area {
+  display: block;
+  overflow: hidden;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  max-width: 600px;
+}
+.wctracktum-admin .submit-area #wctracktum-submit {
+  float: right;
+}
+.wctracktum-admin .custom-table {
+  margin-top: 0;
+}
+.wctracktum-admin .custom-table th {
+  width: 150px !important;
+}
+.wctracktum-admin .custom-table td {
+  font-weight: normal;
+}
+.wctracktum-admin .custom-table textarea {
+  font-family: monospace;
+}
+.wctracktum-admin .custom-table .help {
+  font-weight: normal;
+}
+.wctracktum-admin .settings-wrap h4 {
+  margin-top: 5px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap {
+  /*max-width: 600px;*/
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  margin-top: 20px;
+  background: #fff;
+  flex-basis: 31%;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .integration-name {
+  background: #ffffff;
+  padding: 15px 15px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .integration-settings {
+  background: #fff;
+  padding-left: 25px;
+  display: none;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .integration-settings .wctracktum-option {
+  margin-left: 0px;
+  margin-top: 15px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .integration-settings textarea {
+  width: 100%;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .integration-settings input[type="text"] {
+  min-width: 300px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .integration-settings .wctracktum-form-group {
+  padding: 10px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .integration-settings .wctracktum-border {
+  border: 1px solid #e5e5e5;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .gateway {
+  display: flex;
+  flex-flow: 1 1 auto;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .gateway img {
+  height: 26px;
+  width: auto;
+  margin-right: 15px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .gateway label,
+.wctracktum-admin .settings-wrap .integration-wrap .gateway .gateway-text {
+  flex: 1 1 auto;
+  max-width: 15%;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .gateway .gateway-text {
+  margin: 0 30px 0 0;
+  max-width: 90%;
+  font-size: 1.2em;
+  line-height: 26px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .gateway label.switch {
+  position: relative;
+  display: inline-block;
+  max-width: 40px;
+  height: 18px;
+  margin-top: 5px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .single-integration {
+  padding-bottom: 15px !important;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .event-label-box {
+  display: none;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .event-label-space {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.wctracktum-admin .settings-wrap .integration-wrap .disabled-class {
+  color: #ccc;
+}
+@media (max-width: 1024px) {
+  .wctracktum-admin .settings-wrap {
+    margin-right: 40px;
+  }
+}
+
+
+.wctracktum-admin .wctracktum-tooltip {
+  position: relative;
+  display: inline-block;
+}
+.wctracktum-admin .wctracktum-tooltip .wctracktum-tooltiptext {
+  visibility: hidden;
+  background-color: #24292E;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.wctracktum-admin .wctracktum-tooltip .integration-tooltip {
+  margin-left: -40px;
+  padding: 7px 0px;
+  font-size: 13px;
+  width: 75px;
+}
+.wctracktum-admin .wctracktum-tooltip .wctracktum-tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #24292E transparent transparent transparent;
+}
+.wctracktum-admin .wctracktum-tooltip:hover .wctracktum-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.wctracktum-notice-wrap {
+  overflow: hidden;
+  padding: 22px 15px;
+}
+.wctracktum-message-icon {
+  width: 10%;
+  float: left;
+}
+.wctracktum-message-icon img {
+  height: 50px;
+}
+.wctracktum-message-content {
+  width: 70%;
+  float: left;
+  margin-top: 20px;
+}
+.wctracktum-message-content p {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.wctracktum-message-action {
+  width: 16.5%;
+  float: right;
+  text-align: center;
+  margin-right: 1.2%;
+}
+#wctracktum_remote_notice {
+  display: none;
+}
+
+.integration-field.field-events label {
+    margin-bottom: 5px;
+}
+
+.integration-field.field-id label {
+    margin-right: 20px;
+}
+
+.field-events {
+    margin-top: 20px;
+}
+
+.integration-wrappers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
